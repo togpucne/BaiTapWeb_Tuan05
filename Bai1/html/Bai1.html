@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai1</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.min.js"></script>
+    <style>
+        .container{
+            border: 1px solid black;
+            background-image: linear-gradient(rgb(51, 199, 248),rgb(72, 150, 181));
+            color: white;
+            width: max-content;
+        }
+       
+        .nav a {
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .form-floating textarea.form-control::placeholder {
+            color: #797878;
+        }
+      .btn-hover:hover{background-color: aqua;}
+      .btn-hover{
+        border: 1px dashed  yellow;
+      }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row" style="border-bottom: 7px dotted white">
+            <div class="col-9 mt-2">
+                <ul class="nav" >
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Services</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                </ul>
+            </div>
+
+            <div class="col-3" style="text-shadow: 5px 5px 4px blue;">
+                <h1>Sky World</h1>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+                <h2 class="mt-4">Registration information</h2>
+                <p class="mt-3">
+                    Start your travel planning now with our on-line tour regstration
+                    form. Just tell us a little about yourself and your group and one of our travel
+                    experts will contact  you  to create the perfect custom built for your group's needs .
+                </p>
+        <table >
+
+            <tbody>
+                <tr>
+                    <td>Title</td>
+                    <td><select class="form-select" aria-label="Default select example" style="width: 75px;">
+                        <option selected>Mr.</option>
+                        <option value="1">Two</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="4">Four</option>
+                      </select></td>
+                </tr>
+                <tr>
+                    <td>Full Name <sup>*</sup></td>
+                    <td>
+                        <div class="input-group mt-1" style="width: 300px;">
+                        <input type="text" class="form-control" placeholder="First Name" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mailing Address</td>
+                    <td> 
+                        <div class="input-group mt-1">
+                        <input type="text" class="form-control" placeholder="Mailing Address" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>City</td>
+                    <td>
+                        <div class="input-group mt-1">
+                            <input type="text" class="form-control" placeholder="City" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Country</td>
+                    <td><div class="input-group mt-1">
+                        <input type="text" class="form-control" placeholder="Country" aria-label="Username" aria-describedby="basic-addon1">
+                        </div></td>
+                </tr>
+                <tr>
+                    <td>Specific questions or <br>requests about your tour</td>
+                    <td>
+                        <div class="form-floating mt-1 ">
+                            <textarea class="form-control" placeholder="Specific questions or requests about your tour" id="floatingTextarea2" style="height: 100px"></textarea>
+                            
+                          </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button type="button" class="btn btn-secondary btn-hover mt-1">Submit</button>
+                        <button type="button" class="btn btn-secondary btn-hover mt-1">Reset</button>
+                    </td>
+                    
+                </tr>
+
+            </tbody>
+
+
+        </table>
+
+            </div>
+            <div class="col-6 mt-5" >
+                <img src="../img/sky.png" alt="" style="width: 95%; height: 70%;">
+                <h3 class="mx-4 mt-4" style="color: rgb(6, 6, 231); font-size: 40px; font-weight: bold; text-shadow: 3px 3px 2px; font-family: 'Times New Roman', Times, serif;">Your've arrived.</h3>
+                <h4 class="mx-5 mt-2"style="color: rgb(6, 6, 231); font-size: 22px;font-family: 'Times New Roman', Times, serif; font-weight: bold">Journeys as great as the destinations.</h4>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12" style="text-align: center; ">
+                <p>
+                    <b>2016 Sky World Tours. All rights reserved.</b> <br>
+                Contact information: <b>Student Name</b> | <b> StudentID</b> | Testing Date : <b>16 Sept  2016</b>
+
+                </p>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+</body>
+</html>

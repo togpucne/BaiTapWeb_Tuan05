@@ -1,0 +1,60 @@
+#menu li a{
+    color: #ac4b16;
+   }
+   #buttonsg {
+   background-color: #7f7f00; color: white;
+    }
+    #buttonsg:hover{
+   background-color: rgb(111, 197, 254);
+    }
+footer {
+    position: relative;
+    background-image: url(../img/footer.png);
+    background-position: top center;
+    background-repeat: repeat-x;
+    background-size: 150px;
+}
+
+.corner1 {
+    position: absolute;
+    background-size: 60px;
+    height: 50px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-image: url(../img/corner1.png);
+    background-position: left top;
+}
+.corner2 {
+    position: absolute;
+    background-size: 60px;
+    height: 50px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-image: url(../img/corner2.png);
+    background-position: left bottom;
+}
+.corner3 {
+    position: absolute;
+    background-size: 60px;
+    height: 50px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-image: url(../img/corner3.png);
+    background-position: top right;
+}
+.corner4 {
+    position: absolute;
+    background-size: 60px;
+    height: 50px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-image: url(../img/corner4.png);
+    background-position: bottom right;
+}
+
+.footer_text {
+    height: 50px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 50px;
+}
